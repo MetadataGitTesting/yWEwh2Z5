@@ -1,0 +1,76 @@
+name: jacque.koss
+description: secondary
+version: 0.0.1
+author: 2o0v2ozk.flb4rq8j@vpo1qhjz.com
+language: scala
+buildSystem: ''
+buildSystemDetails:
+  artefactID: jacquekoss
+  parentArtefactID: ''
+  buildSystem: maven
+  author: null
+  createdAt: '2025-09-19 23:29:55'
+pipelines:
+  pipelines/Isis_GrahamAl_FrescoSona_Reynolds:
+    name: Isis_GrahamAl_FrescoSona_Reynolds
+    description: null
+    author: 2o0v2ozk.flb4rq8j@vpo1qhjz.com
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2025-09-19 23:29:55'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+  pipelines/Sonny_DanielLance_LydeLila_Schaefer:
+    name: Sonny_DanielLance_LydeLila_Schaefer
+    description: null
+    author: 2o0v2ozk.flb4rq8j@vpo1qhjz.com
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2025-09-19 23:29:55'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+datasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: 2.12.15
+  gemLibsVersion: 1.1.26
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2025-09-19 23:29:55'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules: {}
+subgraphs: {}
+sqlModels: {}
+sqlSnapshots: {}
+sqlTests: {}
+sqlMacros: {}
+sqlSeeds: {}
+sqlSources: {}
+sqlUnreferencedSources: {}
+sqlPipeline: null
+dependencies:
+- modifiedAt: '2025-09-19T23:29:55.525777Z'
+  name: plibMaven
+  version: 8.14.0-SNAPSHOT
+  id: '1927675455'
+  createdAt: '2025-09-19T23:29:55.525777Z'
+  type: plibMaven
+projectDependencies: {}
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
+projectConfigurations: {}
